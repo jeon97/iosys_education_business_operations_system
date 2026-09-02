@@ -8,4 +8,5 @@
 | 대량 안내 | 워크숍·신청 안내 메일 | 대상자별 검증 후 성공과 실패를 분리해 반환 | [BulkNotificationService](../samples/business-operations/src/main/java/com/portfolio/education/notification/BulkNotificationService.java) |
 | 보조금·배송 | 반환, 계좌, 주소, 수량 상태 관리 | 처리 상태와 관리자 확인 결과를 분리 | [기여 내역](CONTRIBUTIONS.md) |
 | 보고서 | 성적·신청 결과, 출력 이력 | 보고서 데이터 조회와 출력 로그 저장 | [구현 상세](IMPLEMENTATION.md) |
+| 증명서 | 성적증명서 발급·이력·공개 확인 | 확정 결과만 발급하고 검증 코드와 취소 상태로 공개 확인 | [CertificateIssueService](../samples/business-operations/src/main/java/com/portfolio/education/certificate/CertificateIssueService.java) |
 

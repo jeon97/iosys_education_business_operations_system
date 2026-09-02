@@ -103,6 +103,7 @@ flowchart LR
 | 예산 변경 | 금액 합계 검증, 상태 전이 제한, 변경 이력 생성 | [BudgetChangeService](samples/business-operations/src/main/java/com/portfolio/education/budget/BudgetChangeService.java) |
 | 대량 안내 | 수신자별 검증·발송 결과를 성공과 실패로 분리 | [BulkNotificationService](samples/business-operations/src/main/java/com/portfolio/education/notification/BulkNotificationService.java) |
 | 정산 승인·반려 | 제출 상태 검증, 환율 반영, 반려 사유와 이력 관리 | [SettlementService](samples/business-operations/src/main/java/com/portfolio/education/settlement/SettlementService.java) |
+| 성적증명서 발급 | 결과 확정 확인, 중복 발급 방지, 취소와 공개 검증 | [CertificateIssueService](samples/business-operations/src/main/java/com/portfolio/education/certificate/CertificateIssueService.java) |
 
 상세 담당 내용은 [기여 내역](docs/CONTRIBUTIONS.md), 처리 흐름은 [구현 상세](docs/IMPLEMENTATION.md), 기능과 코드의 연결은 [기능별 구현 근거](docs/FEATURE-MATRIX.md)에 정리했습니다.
 
@@ -121,5 +122,6 @@ flowchart LR
 ## 추가 설계 문서
 
 - [문제은행 업무 흐름과 화면 설계](docs/QUESTION-BANK-WORKFLOW.md)
+- [성적증명서 발급과 확인](docs/CERTIFICATE-ISSUANCE.md)
 
 회사 소스, 기관명, 개인정보, 내부 주소와 운영 설정은 포함하지 않았습니다.
